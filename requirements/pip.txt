@@ -1,5 +1,5 @@
 # Base packages
-pip==9.0.1
+pip==23.3
 appdirs==1.4.3
 virtualenv==15.0.1
 docutils==0.11
@@ -7,9 +7,9 @@ Sphinx==1.5.3
 sphinx_rtd_theme==0.2.5b1
 Pygments==2.2.0
 mkdocs==0.14.0
-django==1.9.12
+django==3.2.25
 six==1.10.0
-future==0.16.0
+future==0.18.3
 readthedocs-build<2.1
 
 django-tastypie==0.13.0
@@ -17,23 +17,23 @@ django-haystack==2.6.0
 celery-haystack==0.10
 django-guardian==1.4.6
 django-extensions==1.7.4
-djangorestframework==3.5.4
+djangorestframework==3.11.2
 django-vanilla-views==1.0.4
 jsonfield==1.0.3
 
-requests==2.3.0
+requests==2.32.2
 slumber==0.7.1
-lxml==3.3.5
+lxml==4.9.1
 defusedxml==0.5.0
 
 # Basic tools
 redis==2.10.6
-celery==4.1.0
+celery==5.2.2
 django-allauth==0.32.0
-dnspython==1.15.0
+dnspython==2.6.1
 
 # VCS
-httplib2==0.7.7
+httplib2==0.19.0
 
 # Search
 elasticsearch==1.5.0
